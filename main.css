@@ -1,0 +1,133 @@
+/* Default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:#000000;
+}
+body {
+    background-color: #eeeeee;
+}
+.header {
+    width: 100%;
+    background-color: #eee;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.header-logo > a > img {
+    width: 300px;
+}
+.header-nav > a {
+    margin: 20px 100px 20px 20px;
+}
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.main-title {
+    padding-top: 10vh;
+}
+form > input {
+    display: block;
+    margin: 10px auto;
+}
+.form-email {
+    width: 20vw;
+    padding: 5px;
+}
+.btn {
+    width: 200px;
+    padding: 5px;
+    background-color: #f1c40f;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.features {
+    width: 60vw;
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+.description > p {
+    text-align: start;
+}
+.icon > i {
+    font-size: 50px;
+    color: #ff8c00;
+    width: 40px;
+}
+.video {
+    margin: 50px auto;
+}
+.pricing {
+    width: 60vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 30%;
+    border: 1px solid #000;
+}
+.card-title {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(187, 179, 179);
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.price ~ p {
+    padding: 2px;
+}
+.btn-select {
+    padding: 5px;
+    background-color: yellow;
+    width: 50%;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+.footer {
+    width: 60vw;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #BBB3B3;
+}
+.footer-nav {
+    text-align: center;
+    padding: 5px;
+}
+
+@media (max-width: 900px){
+    .header-nav > a {
+        margin: 20px 5px 20px 20px;
+    }
+    .header-logo > a > img {
+        width: 200px;
+    }
+}
+
